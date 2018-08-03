@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Gugudan {
 	public static int[] caculate(int times) {
@@ -16,13 +16,9 @@ public class Gugudan {
 
 		}
 	}
+}
 
-	public static void main(String[] args) {
-//		Scanner scanner = new Scanner(System.in);
-		for (int i = 2; i < 10; i++) {
-			int[] result = caculate(i);
-			print(result);
-		}
+	
 		
 		
 //		System.out.println("¸î´Ü?");
@@ -68,6 +64,6 @@ public class Gugudan {
 //		System.out.println(number * 8);
 //		System.out.println(number * 9);
 
-	}
-
-}
+//	}
+//
+//}
