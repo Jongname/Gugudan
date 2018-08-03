@@ -2,8 +2,8 @@
 
 public class Gugudan {
 	public static int[] caculate(int times) {
-		int[] result = new int[9];
-		for (int i = 0; i < result.length; i++) {
+		int[] result = new int[times];
+		for (int i = 0; i < times; i++) {
 			result[i] = times * (i + 1);
 
 		}
@@ -12,9 +12,10 @@ public class Gugudan {
 
 	public static void print(int[] result) {
 		for (int i = 0; i < result.length; i++) {
-			System.out.println(result[i]);
+			System.out.print(result[i] + " ");
 
 		}
+		System.out.println();
 	}
 }
 
